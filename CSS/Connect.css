@@ -1,0 +1,204 @@
+body{
+    /* background-image: url("../Images/Wallpaper.jpg"); */
+    padding-left: 1%;
+    padding-top: 1%;
+}
+#div1{
+    margin-top: -10px;
+    width: 10%;
+    /* display: inline-block; */
+    padding-top: 1%;
+    padding-left: 1%;
+    float: left;
+}
+#div2{
+    margin-top: -3px;
+    text-transform: uppercase;
+    /* font-size: 750%; */
+    padding-left: 25%;
+    line-height: 100%;
+    width: 45%;
+    height: 50%;
+    display: inline-block;
+    /* text-align: center; */
+}
+#SquareBullet{
+    border-radius: 20%;
+}
+#Name{
+    font-size: 750%;
+    font-style: inherit;
+}
+#CurrentProfession{
+    /* margin-top: -20%; */
+    font-size: 250%;
+    font-variant: small-caps;
+   
+}
+
+header{
+   background-color: #D0CDBD;
+   border:3px solid black;
+   display: block;
+   height: 25vh;
+   border-bottom: 7px solid black;
+    border-right: 7px solid black;
+}
+nav{
+    margin-top: -0.30%;
+    float: left;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-top: none ;
+    color: #D0CDBD;
+    background-color: #D0CDBD;
+    /* display: inline-block; */
+    width: 20%;
+    min-width: 125px;
+    margin-right: 15px;
+    height:105vh;
+    overflow: auto;
+    clear: both;
+    border-bottom: 7px solid black;
+    border-right: 7px solid black;
+    margin-bottom: 0.5%;
+}
+nav a{
+    /* float: left; */
+    display: block;
+    line-height: 50px;
+    height: 45px;
+    color: white;
+    background-color: #606372;
+    text-decoration: none;
+    padding-left: 20px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 200%;
+
+    margin: 20px 0px 10px 5px;
+    border-style: outset;
+    overflow: hidden;
+}
+#Back{
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    font-size: 150%;
+    font-variant: inherit;
+    width: 150px;
+    border: 2px solid black;
+    background-color: rgba(127, 65, 185, 0.534);
+}
+#Download{
+    position: fixed;
+    top: 320px;
+    font-size: 300%;
+    height: 50px;
+    right: 0;
+    width: 200px;
+    font-size: 110%;
+    background-color: brown;
+
+    
+}
+nav a:hover{
+    background-color: #42444d;
+}
+#main{
+    float: left;
+    width: 78%;
+    background-color: #AD8082;
+    margin-top: 25px;
+    height: 100vh;
+}
+
+#CurrentPage{
+    border-style: inset;
+    background-color: #1d1d22;
+}
+footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 300%;
+    height: 30vx;
+}
+
+#foot{
+    display: inline;
+}
+h3{
+    font-size: 300%;
+    padding-left: 3%;
+}
+h4{
+    font-size: 200%;
+    text-align: center;
+}
+#Contact{
+    width: 40%;
+    /* display: inline-block; */
+    margin-left: 10%;
+    border-top: 3px solid black;
+    height: 70vh;
+    font-size: 150%;    
+    float: left;
+}
+input{
+    font-size: 150%;
+    margin-left: 5%;
+    margin-bottom: 3% ;
+    width: 85%;
+}
+#message{
+    height: 15vh;
+}
+button{
+    font-size: 150%;
+    margin-left: 40%;
+}
+#content{
+    padding: 0% 5%;
+}
+#Social{
+    width: 40%;
+    display: inline-block;
+    
+    border-left: 3px solid black;
+    /* margin-right: 1%; */
+    border-top: 3px solid black;
+    height: 70vh;
+    font-size: 150%;
+    
+}
+
+#reach_img{
+    
+    display: inline-block;
+    /* background-color: brown; */
+    padding-left: 5%;
+    line-height: 1.8;
+    
+}
+#reach_img>li{
+    list-style-type: none;
+}
+#reach_content{
+    width: 83%;
+    display: inline-block;
+    font-size: 190%;
+    /* background-color: brown; */
+}
+#reach_content>li{
+    list-style-type: none;
+    line-height: 2;
+}
+#social_img>li{
+    padding-left: 12%;
+    margin-right: 1%;
+    align-items: center;
+    display: inline;
+}
+

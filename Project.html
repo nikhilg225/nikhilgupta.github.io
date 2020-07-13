@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <link rel="stylesheet" href="CSS/Project.css">
+    <script src="JS/project.js"></script>
+</head>
+<body>
+    <header>
+        <div id="div1">
+        <img id="Profile" src="Images/UserIcon.png" alt="Profile_picture">
+        </div>
+        <div id="div2">
+        <h1 id ="Name">Nikhil Gupta</h1>
+        <h2 id="CurrentProfession">Student <img src="Images/SquareBullet.png" id="SquareBullet"> B.Tech (CSE), Amity University</h2>
+        </div>
+        <div id="div3">
+            
+        </div>
+    </header>
+    <nav>
+        <a href="AboutMe.html">About Me</a>
+        <a href="Interactive.html">Interactive</a>
+        <a href="Education.html">Education</a>
+        <a href="Internship.html">Internship</a>
+        <a id="CurrentPage" href="Project.html">Projects/Activities</a>
+        <a href="Awards.html">Achievements & Certificates</a>
+        <a href="Skills.html">Skills</a>
+        <a href="Connect.html">Connect To Me</a>
+        <a href="#Name" id="Back">Back to Top!</a>
+        <a href="#Name" id="Download">Download Resume!</a>
+    </nav>
+        <section id="main">
+        <div class="container">
+            <ul class="tabs">
+            <li class="current_tab" data-tab="C++" onclick="change(this)" value="1">C++</li>
+            <li class="tab" data-tab="Java" onclick="change(this)" value="2" >Java</li>
+            <li class="tab" data-tab="Python" onclick="change(this)" value="3" >Python</li>
+            <li class="tab" data-tab="Web" onclick="change(this)" value="4" >Web Development</li>
+            <li class="tab" data-tab="JS" onclick="change(this)" value="5" >Javascript</li>
+            </ul>
+
+            <div id="C++" class="current_content">
+                <div class="Inner_content">
+                    <h4>Competitive Programming</h4>
+                    <li>3* Coder at CodeChef<li class="inner">Highest Rating-1610 </li></li>
+                    <li>Pupil at Codeforces<li class="inner">Highest Rating-1371</li></li>
+                </div>
+            </div>
+            <div id="Java" class="tab_content">
+            <p>Java Coming Soon!</p>
+            </div>
+            <div id="Python" class="tab_content">
+            <p>Python Coming Soon!</p>
+            </div>
+            <div id="Web Development" class="tab_content">
+            <p>Web Development Coming Soon!</p>
+            </div>
+            <div id="Javascript" class="tab_content">
+            <p>Javascript Development Coming Soon!</p>
+            </div>
+            
+        </div>     
+
+        </section>
+    <footer>
+    &copy; <p id="foot">Nikhil Gupta 2020</p>    
+    </footer>
+
+</body>
+</html>
